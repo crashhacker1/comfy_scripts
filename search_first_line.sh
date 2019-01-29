@@ -1,0 +1,1 @@
+head -n1 -v directory/files*|grep -B1 pattern

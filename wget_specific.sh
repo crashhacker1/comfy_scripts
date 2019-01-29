@@ -1,0 +1,1 @@
+wget -r -A .jpg http://site.with.images/url/

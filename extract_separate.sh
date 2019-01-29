@@ -1,0 +1,1 @@
+for i in *.zip; do unzip "$i" -d "${i%%.zip}"; done
