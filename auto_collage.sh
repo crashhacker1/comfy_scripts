@@ -1,5 +1,13 @@
 #!/bin/bash
 
+#-------------AUTO COLLAGE by CRASH----------------
+#creates a folder with full resolution and low resolution thumbnails (9 each) & makes a full resolution collage along with low resolution collage images.
+#USAGE : ./auto_collage.sh film.mkv
+
+#package requirements
+#install ffmpeg (which should install ffprobe) & imagemagick using the following command in *buntu
+#sudo apt install ffmpeg* imagemagick* -y
+
 if [ -z "$1" ]; then
 echo "You have to specify a video file"
 exit 1
